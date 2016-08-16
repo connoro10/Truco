@@ -101,7 +101,6 @@ public class controller implements ActionListener {
 		int envido = hand.envido(hand.cpu);
 		int betterCards = hand.cardsBetter(currentCard);
 		int handRank = hand.handRank();
-		System.out.println(handRank);
 		if (turn == CPU) {
 			cpuTimer.stop();
 			switch (cardNum) {
